@@ -2,16 +2,16 @@
 #EFF4F7 - Light Grey
 #555556 - Grey (Text)
 #ffffff - White
-#9B4006 - Dark Orange
-#D45D13 - Orange 
-#033E4C - Dark Blue-Green
-#01626B - Blue-Green
+#9B4108 - Dark Orange
+#D45E13 - Orange 
+#01404C - Dark Blue-Green
+#006072 - Blue-Green
 */
 
 /* Global Styles */
-* {
+/* * {
     margin: 0 auto;
-}
+} */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -23,6 +23,12 @@ body {
 .container {
     margin: 0 auto;
 }
+
+th, td {
+    padding: 15px 40px;
+}
+
+
 
 /* Header */
 .title {
@@ -42,10 +48,7 @@ body {
     border: 1px solid #EFF4F7;
     color: #ffffff;
     padding: 15px;
-}
-
-.benefits-table th {
-    text-transform: uppercase;
+    margin: 0 auto;
 }
 
 .benefits-table tr {
@@ -53,13 +56,38 @@ body {
 }
 
 .drk-org {
-    background: #9B4006;
+    background: #9B4108;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .drk-blgr {
-    background: #033E4C;
+    background: #01404C;
+}
+
+.benefits-table td:first-child() {  
+    background: #D45E13;
+    text-align: left;
 }
 
 /* Slider Styles */
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: url('contrasticon.png');
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 23px;
+    height: 25px;
+    border: 0;
+    background: url('contrasticon.png');
+    cursor: pointer;
+}
 
 /* Media Queries (Responsive Design) */
