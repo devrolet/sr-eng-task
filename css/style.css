@@ -1,0 +1,65 @@
+/* Color Pallette 
+#EFF4F7 - Light Grey
+#555556 - Grey (Text)
+#ffffff - White
+#9B4006 - Dark Orange
+#D45D13 - Orange 
+#033E4C - Dark Blue-Green
+#01626B - Blue-Green
+*/
+
+/* Global Styles */
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #EFF4F7;
+    color: #555556;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+/* Header */
+.title {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Body Text */
+.body-text{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Benefits Table Styles */
+.benefits-table {
+    border: 1px solid #EFF4F7;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.benefits-table th {
+    text-transform: uppercase;
+}
+
+.benefits-table tr {
+    padding: 15px;
+}
+
+.drk-org {
+    background: #9B4006;
+}
+
+.drk-blgr {
+    background: #033E4C;
+}
+
+/* Slider Styles */
+
+/* Media Queries (Responsive Design) */
