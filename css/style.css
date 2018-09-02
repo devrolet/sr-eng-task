@@ -101,7 +101,7 @@ th, td {
     border-radius: 25%; 
     background: url(../assets/10-1-1-50-10_indicator_elipse.svg) no-repeat;
     cursor: pointer;
-    /* vertical-align: middle; */
+    margin-top: 22px;
 }
 
 .slider::-moz-range-thumb {
@@ -110,7 +110,37 @@ th, td {
     border-radius: 25%;
     background: url(../assets/10-1-1-50-10_indicator_elipse.svg) no-repeat;
     cursor: pointer;
-    /* vertical-align: middle; */
+    margin-top: 22px;
+}
+
+/* .slider::-webkit-slider-runnable-track {
+    height:10px;
+    background: #D45E13;
+} */
+
+.tickmarks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.tickmarks p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    margin: 10 0 10px 0;
+    padding: 8px 20px;
+    border-radius: 15px;
+}
+
+.tickmarks .active {
+    background: #D45E13;
+    color: white;
 }
 
 #submit {

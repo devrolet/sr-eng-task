@@ -1,5 +1,12 @@
 var benefits = {
     "coverage": 50000,
+    "desc" : {
+        "desc1": "Integer semper, ipsum nec molestie posuere, nulla erat vulputate libero, id posuere elit ligula sit amet massa.",
+        "desc2": "Donec dapibus ipsum id purus suscipit, non laoreet felis consequat. Aliquam erat volutpat.",
+        "desc3": "Proin velit tortor, euismod vitae ultrices sed, ornare vel tellus.",
+        "desc4": "Curabitur cursus tincidunt sapien id bibendum.",
+        "totalValue": "Total Value",
+    },
     "amounts" : {
         "prem1": 3650,
         "prem2": 3550,
@@ -10,6 +17,13 @@ var benefits = {
 },
 {
     "coverage": 100000,
+    "desc" : {
+        "desc1": "Integer semper, ipsum nec molestie posuere, nulla erat vulputate libero, id posuere elit ligula sit amet massa.",
+        "desc2": "Donec dapibus ipsum id purus suscipit, non laoreet felis consequat. Aliquam erat volutpat.",
+        "desc3": "Proin velit tortor, euismod vitae ultrices sed, ornare vel tellus.",
+        "desc4": "Curabitur cursus tincidunt sapien id bibendum.",
+        "totalValue": "Total Value",
+    },
     "amounts" : {
         "prem1": 7300,
         "prem2": 7100,
@@ -20,6 +34,13 @@ var benefits = {
 },
 {
     "coverage": 150000,
+    "desc" : {
+        "desc1": "Integer semper, ipsum nec molestie posuere, nulla erat vulputate libero, id posuere elit ligula sit amet massa.",
+        "desc2": "Donec dapibus ipsum id purus suscipit, non laoreet felis consequat. Aliquam erat volutpat.",
+        "desc3": "Proin velit tortor, euismod vitae ultrices sed, ornare vel tellus.",
+        "desc4": "Curabitur cursus tincidunt sapien id bibendum.",
+        "totalValue": "Total Value",
+    },
     "amounts" : {
         "prem1": 10950,
         "prem2": 10650,
@@ -30,6 +51,13 @@ var benefits = {
 },
 {
     "coverage": 200000,
+    "desc" : {
+        "desc1": "Integer semper, ipsum nec molestie posuere, nulla erat vulputate libero, id posuere elit ligula sit amet massa.",
+        "desc2": "Donec dapibus ipsum id purus suscipit, non laoreet felis consequat. Aliquam erat volutpat.",
+        "desc3": "Proin velit tortor, euismod vitae ultrices sed, ornare vel tellus.",
+        "desc4": "Curabitur cursus tincidunt sapien id bibendum.",
+        "totalValue": "Total Value",
+    },
     "amounts" : {
         "prem1": 14600,
         "prem2": 14600,
@@ -40,6 +68,13 @@ var benefits = {
 },
 {
     "coverage": 250000,
+    "desc" : {
+        "desc1": "Integer semper, ipsum nec molestie posuere, nulla erat vulputate libero, id posuere elit ligula sit amet massa.",
+        "desc2": "Donec dapibus ipsum id purus suscipit, non laoreet felis consequat. Aliquam erat volutpat.",
+        "desc3": "Proin velit tortor, euismod vitae ultrices sed, ornare vel tellus.",
+        "desc4": "Curabitur cursus tincidunt sapien id bibendum.",
+        "totalValue": "Total Value",
+    },
     "amounts" : {
         "prem1": 18250,
         "prem2": 17750,
