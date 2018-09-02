@@ -1,0 +1,50 @@
+var benefits = {
+    "coverage": 50000,
+    "amounts" : {
+        "prem1": 3650,
+        "prem2": 3550,
+        "prem3": 2650,
+        "prem4": 4350,
+        "total": 14200
+    }
+},
+{
+    "coverage": 100000,
+    "amounts" : {
+        "prem1": 7300,
+        "prem2": 7100,
+        "prem3": 5300,
+        "prem4": 8700,
+        "total": 28400
+    }
+},
+{
+    "coverage": 150000,
+    "amounts" : {
+        "prem1": 10950,
+        "prem2": 10650,
+        "prem3": 7950,
+        "prem4": 13050,
+        "total": 42600
+    }
+},
+{
+    "coverage": 200000,
+    "amounts" : {
+        "prem1": 14600,
+        "prem2": 14600,
+        "prem3": 10600,
+        "prem4": 17400,
+        "total": 56800
+    }
+},
+{
+    "coverage": 250000,
+    "amounts" : {
+        "prem1": 18250,
+        "prem2": 17750,
+        "prem3": 13250,
+        "prem4": 21750,
+        "total": 71000
+    }
+}

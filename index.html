@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" type="text/css" />
-  <title>BENEFITS AS COMPENSATION</title>
+  <title>Benefit As Compensation</title>
 </head>
 <body>
     <div class="container">
         <h2 class="title">Benefits As Compensation</h2>
-        <p class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod, lorem ut ultrices tempus, leo est dapibus turpis, ac vehicula velit metus eu erat. Quisque eget erat vitae ligula sollicitudin consequat at nec nisl. Duis aliquam, velit et molestie varius, neque turpis elementum velit, nec volutpat diam est et diam. Donec tincidunt turpis vitae tempor elementum. Donec pretium vulputate quam, a vulputate sapien aliquet non. Nam malesuada varius mi, at porttitor orci tempus sit amet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur ante metus, tincidunt eu dictum nec, blandit in nisi. Donec quis dolor consequat.</p>
+        <p class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod, lorem ut ultrices tempus, leo est dapibus turpis, ac vehicula velit metus eu erat. Quisque eget erat vitae ligula sollicitudin consequat at nec nisl. Duis aliquam, velit et molestie varius, neque turpis elementum velit, nec volutpat diam est et diam. Donec tincidunt turpis vitae tempor elementum.</p>
+        <br>
+        <p class="body-text">Donec pretium vulputate quam, a vulputate sapien aliquet non. Nam malesuada varius mi, at porttitor orci tempus sit amet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur ante metus, tincidunt eu dictum nec, blandit in nisi. Donec quis dolor consequat.</p>
 
         <table class="benefits-table">
             <tr>
@@ -18,20 +20,20 @@
                 <th class="drk-blgr">DOLLAR VALUE</th>
             </tr>
             <tr>
-                <td>Integer semper, ipsum nec molestie posuere, nulla erat vulputate libero, id posuere elit ligula sit amet massa.</td>
-                <td>$00,000</td>
+                <td class="column1">Integer semper, ipsum nec molestie posuere, nulla erat vulputate libero, id posuere elit ligula sit amet massa.</td>
+                <td class="column2">$00,000</td>
             </tr>
             <tr>
-                <td>Donec dapibus ipsum id purus suscipit, non laoreet felis consequat. Aliquam erat volutpat.</td>
-                <td>$00,000</td>
+                <td class="column1">Donec dapibus ipsum id purus suscipit, non laoreet felis consequat. Aliquam erat volutpat.</td>
+                <td class="column2">$00,000</td>
             </tr>
             <tr>
-                <td>Proin velit tortor, euismod vitae ultrices sed, ornare vel tellus.</td>
-                <td>$00,000</td>
+                <td class="column1">Proin velit tortor, euismod vitae ultrices sed, ornare vel tellus.</td>
+                <td class="column2">$00,000</td>
             </tr>
             <tr>
-                <td>Curabitur cursus tincidunt sapien id bibendum.</td>
-                <td>$00,000</td>
+                <td class="column1">Curabitur cursus tincidunt sapien id bibendum.</td>
+                <td class="column2">$00,000</td>
             </tr>
             <tr>
                 <td class="drk-org">TOTAL VALUE</td>
@@ -39,10 +41,18 @@
             </tr>
         </table>
         <!-- Add Slider Here -->
-        <input type="range" class="slider">
+        <!-- <datalist id="tickmarks">
+            <option>$50,000</option>
+            <option>$100,000</option>
+            <option>$150,000</option>
+            <option>$200,000</option>
+            <option>$250,000</option>
+        </datalist> -->
+
+        <input type="range" class="slider" min="50000" max="250000" step="50000">
         <br>
         <!-- Submit Button -->
-        <button type="submit">SUBMIT</button>
+        <button id="submit" type="submit">SUBMIT</button>
     </div>
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <script src="js/script.js"></script>
