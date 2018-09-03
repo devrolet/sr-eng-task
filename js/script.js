@@ -1,6 +1,8 @@
 
+$(function(){
+    
 // GET JSON data from external source
-function fetchJSON(callback) {
+function getJSON(callback) {
     var obj = new XMLHttpRequest();
     obj.overrideMimeType("application/json");
     obj.open("GET", "https://api.myjson.com/bins/18esl0", true);
@@ -13,24 +15,27 @@ function fetchJSON(callback) {
 }
 
 // Parse received JSON data
-function init() {
-    fetchJSON(function(response) {
-        var myJSON = JSON.parse(response);
-        console.log(myJSON[2].amounts);
-        for(var i = 0; i <= myJSON.length; i++) {
-            console.log(myJSON[i]);
-            // $(".column2").append(myJSON.amounts);
-        }
-       
+function addData() {
+    getJSON(function(response) {
+        var slider = document.getElementById("slider");
+        var data = JSON.parse(response);
+        $(".prem1").append("$"+data[2].amounts.prem1);
+        $(".prem2").append("$"+data[2].amounts.prem2);
+        $(".prem3").append("$"+data[2].amounts.prem3);
+        $(".prem4").append("$"+data[2].amounts.prem4);
+        $(".drk-blgr:last").append("$"+data[2].amounts.total);
+        console.log(slider.value);
+        for(var i = 0; i < data.length; i++) {
+            
+            
+        } 
     });
 }
 
 // Click Listener for Dynamic Slider
-$(function(){
-    $('.slider').click(function() {
-        // $('.column2').css("outline", "1px solid red");
-        console.log("Value: " + this.value);
-        // $('.tickmarks p').removeClass('active');
-        init();
-    })
+$('.slider').click(function() {
+    console.log("Value: " + this.value);
+})
+
+addData();
 });

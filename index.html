@@ -15,42 +15,47 @@
         <p class="body-text">Donec pretium vulputate quam, a vulputate sapien aliquet non. Nam malesuada varius mi, at porttitor orci tempus sit amet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur ante metus, tincidunt eu dictum nec, blandit in nisi. Donec quis dolor consequat.</p>
 
         <table class="benefits-table">
-            <tr>
-                <th class="drk-org">BENEFIT DESCRIPTION</th>
-                <th class="drk-blgr">DOLLAR VALUE</th>
-            </tr>
-            <tr>
-                <td class="column1">Integer semper, ipsum nec molestie posuere, nulla erat vulputate libero, id posuere elit ligula sit amet massa.</td>
-                <td class="column2"></td>
-            </tr>
-            <tr>
-                <td class="column1">Donec dapibus ipsum id purus suscipit, non laoreet felis consequat. Aliquam erat volutpat.</td>
-                <td class="column2"></td>
-            </tr>
-            <tr>
-                <td class="column1">Proin velit tortor, euismod vitae ultrices sed, ornare vel tellus.</td>
-                <td class="column2"></td>
-            </tr>
-            <tr>
-                <td class="column1">Curabitur cursus tincidunt sapien id bibendum.</td>
-                <td class="column2"></td>
-            </tr>
-            <tr>
-                <td class="drk-org">TOTAL VALUE</td>
-                <td class="drk-blgr"></td>
-            </tr>
+            <thead>
+                    <tr>
+                        <th class="drk-org">BENEFIT DESCRIPTION</th>
+                        <th class="drk-blgr">DOLLAR VALUE</th>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="column1">Integer semper, ipsum nec molestie posuere, nulla erat vulputate libero, id posuere elit ligula sit amet massa.</td>
+                    <td class="column2 prem1"></td>
+                </tr>
+                <tr>
+                    <td class="column1">Donec dapibus ipsum id purus suscipit, non laoreet felis consequat. Aliquam erat volutpat.</td>
+                    <td class="column2 prem2"></td>
+                </tr>
+                <tr>
+                    <td class="column1">Proin velit tortor, euismod vitae ultrices sed, ornare vel tellus.</td>
+                    <td class="column2 prem3"></td>
+                </tr>
+                <tr>
+                    <td class="column1">Curabitur cursus tincidunt sapien id bibendum.</td>
+                    <td class="column2 prem4"></td>
+                </tr>
+                <tr>
+                    <td class="drk-org">TOTAL VALUE</td>
+                    <td class="drk-blgr"></td>
+                </tr>
+            </tbody>
         </table>
         <!-- Add Slider Here -->
         <div class="ranges">
             <div class="tickmarks">
             <p>$50,000</p>
             <p>$100,000</p>
-            <p class="active">$150,000</p>
+            <!-- <p class="active">$150,000</p> -->
+            <p>$150,000</p>
             <p>$200,000</p>
             <p>$250,000</p>
         </div>
 
-        <input type="range" class="slider" min="50000" max="250000" step="50000">
+        <input type="range" id="slider" class="slider" min="50000" max="250000" step="50000">
         <br>
         </div>
         
