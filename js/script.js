@@ -5,6 +5,7 @@ $(function(){
 function getJSON(callback) {
     var obj = new XMLHttpRequest();
     obj.overrideMimeType("application/json");
+    // Received errors when file was local. Found an online JSON storage resource
     obj.open("GET", "https://api.myjson.com/bins/18esl0", true);
     obj.onreadystatechange = function() {
         if(obj.readyState == 4 && obj.status == "200") {
@@ -19,7 +20,7 @@ function addData() {
     getJSON(function(response) {
         var slider = document.getElementById("slider");
         var data = JSON.parse(response);
-        // Change Dollar Values based on Slider Position
+        // Change Dollar Values and Active Class based on Slider Position
         if(slider.value == 150000) {
             $("._150k").addClass("active");
             $(".column2").empty();

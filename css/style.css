@@ -145,73 +145,68 @@ th, td {
 }
 
 /* Media Queries (Responsive Design) */
-
-@media screen and (max-width: 768px) {
-    /* .slider {
-        -webkit-appearance: none;
-        width: 50%;
-        height: 20px;
-        border-radius: 5px;   
-        background: #d3d3d3;
-        outline: none;
-        opacity: 0.7;
-        -webkit-transition: .2s;
-        transition: opacity .2s;
-        margin-top: 50px;
+@media screen and (max-width: 425px) {
+    .body-text {
+        width: 75%;
     }
-    
-    .slider::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 50px;
-        height: 50px;
-        border-radius: 25%; 
-        background: url(../assets/10-1-1-50-10_indicator_elipse.svg) no-repeat;
-        cursor: pointer;
-        margin-top: 22px;
+    .slider {
+        width: 100%;
     }
-    
-    .slider::-moz-range-thumb {
-        width: 50px;
-        height: 50px;
-        border-radius: 25%;
-        background: url(../assets/10-1-1-50-10_indicator_elipse.svg) no-repeat;
-        cursor: pointer;
-        margin-top: 22px;
-    }
-    
     .tickmarks {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 10px;
-        width: 50%;
-        margin: 0 auto;
+        padding: 0;
+        width: 100%;
     }
-    
     .tickmarks p {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        height: 20px;
-        line-height: 20px;
-        margin: 10 0 10px 0;
-        padding: 8px 20px;
-        border-radius: 15px;
-        
+        font-size: .6em;
     }
-    
-    .tickmarks .active {
-        background: #D45E13;
-        color: white;
-    }
-    
+
     #submit {
-        margin: 50px;
-        padding: 20px 60px;
-        border: 2px solid #01404C;
-        border-radius: 0;
-        font-size: 14px;
-        color: #01404C;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
     }
-} */
+}
+
+@media screen and (max-width:529px) and (min-width:426px) {
+    .tickmarks {
+        width: 85%;
+    }
+
+    .tickmarks p {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width:670px) and (min-width:426px) {
+    .body-text {
+        width: 75%;
+    }
+    .slider {
+        width: 100%;
+    }
+    .tickmarks {
+        padding: 0;
+        width: 100%;
+    }
+
+    #submit {
+        width: 95%;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:669px) {
+    .body-text {
+        width: 75%;
+    }
+    .slider {
+        width: 90%;
+    }
+    .tickmarks {
+        padding: 0;
+        width: 90%;
+    }
+}
